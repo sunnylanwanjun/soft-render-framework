@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pnglib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\fxx\LOCALS~1\Temp\RSP29A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../zlib/" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\png.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngerror.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngget.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngmem.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngpread.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngread.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngrio.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngrtran.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngrutil.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngset.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngtrans.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngwio.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngwrite.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngwtran.c"
+"C:\Documents and Settings\fxx\桌面\png_test\pnglib\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\fxx\LOCALS~1\Temp\RSP29A.tmp" 
+Creating temporary file "C:\DOCUME~1\fxx\LOCALS~1\Temp\RSP29B.tmp" with contents
+[
+/nologo /out:"Debug\pnglib.lib" 
+".\Debug\png.obj"
+".\Debug\pngerror.obj"
+".\Debug\pngget.obj"
+".\Debug\pngmem.obj"
+".\Debug\pngpread.obj"
+".\Debug\pngread.obj"
+".\Debug\pngrio.obj"
+".\Debug\pngrtran.obj"
+".\Debug\pngrutil.obj"
+".\Debug\pngset.obj"
+".\Debug\pngtrans.obj"
+".\Debug\pngwio.obj"
+".\Debug\pngwrite.obj"
+".\Debug\pngwtran.obj"
+".\Debug\pngwutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\fxx\LOCALS~1\Temp\RSP29B.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+pnglib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

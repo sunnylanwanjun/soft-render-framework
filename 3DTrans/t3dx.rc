@@ -1,0 +1,5 @@
+#include "..\libengin\resource.h"
+
+Common_Icon ICON DISCARDABLE "t3dx.ico"
+Common_Cur CURSOR DISCARDABLE "t3dx.cur"
+

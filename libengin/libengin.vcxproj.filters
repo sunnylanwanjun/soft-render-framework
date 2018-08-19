@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2d">
+      <UniqueIdentifier>{3280b843-aa2a-4a38-b485-28033556b5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{79d10197-49b3-49ab-a3c4-73714a0b04dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{c8f4b263-f1e4-4457-a6ce-fb7c09a2b8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{5e26ce19-3e2f-4028-a08d-6cc497293075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{e233ab5e-6ec5-4f08-bbe1-0c4f0291d9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{6c30fb5b-3e8a-4cfe-9d2d-df6bab989a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3d">
+      <UniqueIdentifier>{987cc7c6-4972-4bd8-b024-bb8a7d19755e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionManager.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="engin.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathUtil.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieClip.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolMgr.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="t3dlib1.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowView.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListener.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="Polar.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="t3dlib5.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="PlgReader.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderList.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Node3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Action3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerKeyboard.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventKeyboard.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventListenerTouch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTouch.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawFunc.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinate2D.h">
+      <Filter>2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dh.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseUtil.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelReader.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialNode3D.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialRenderList.h">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="InitEngin.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionManager.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="mathUtil.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieClip.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolMgr.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="t3dlib1.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowView.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListener.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="t3dlib5.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="PlgReader.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderList.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Node3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Action3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerKeyboard.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="EventKeyboard.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="EventListenerTouch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTouch.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawFunc.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinate2D.cpp">
+      <Filter>2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseUtil.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelReader.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialNode3D.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialRenderList.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="InitEngin.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mathUtil.inl">
+      <Filter>math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

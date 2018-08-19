@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppDelegate.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Terrain3D.cpp" />
+    <ClCompile Include="ChangeColor.cpp" />
+    <ClCompile Include="Terrain3D_Obj.cpp" />
+    <ClCompile Include="ModelViewer.cpp" />
+    <ClCompile Include="NewModelViewer.cpp" />
+    <ClCompile Include="Terrain3D_Material.cpp" />
+    <ClCompile Include="raiders.cpp">
+      <Filter>raiders</Filter>
+    </ClCompile>
+    <ClCompile Include="Stars.cpp">
+      <Filter>raiders</Filter>
+    </ClCompile>
+    <ClCompile Include="Aliens.cpp">
+      <Filter>raiders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppDelegate.h" />
+    <ClInclude Include="dump.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="Terrain3D.h" />
+    <ClInclude Include="ChangeColor.h" />
+    <ClInclude Include="Terrain3D_Obj.h" />
+    <ClInclude Include="ModelViewer.h" />
+    <ClInclude Include="NewModelViewer.h" />
+    <ClInclude Include="Terrain3D_Material.h" />
+    <ClInclude Include="raiders.h">
+      <Filter>raiders</Filter>
+    </ClInclude>
+    <ClInclude Include="Stars.h">
+      <Filter>raiders</Filter>
+    </ClInclude>
+    <ClInclude Include="raidersDef.h">
+      <Filter>raiders</Filter>
+    </ClInclude>
+    <ClInclude Include="Aliens.h">
+      <Filter>raiders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="t3dx.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="raiders">
+      <UniqueIdentifier>{ecccdb31-75ae-4658-9a55-09f041a5fd80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
